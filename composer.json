@@ -1,10 +1,10 @@
 {
-  "name": "mikha-dev/d4t-admin-operation-log",
+  "name": "mikha-dev/dcat-operation-log",
   "description": "Dcat Admin Operation log",
   "alias": "Operation Logs",
   "type": "library",
   "keywords": ["dcat-admin", "extension"],
-  "homepage": "https://github.com/miikha-dev/d4t-admin-operation-log",
+  "homepage": "https://github.com/miikha-dev/dcat-operation-log",
   "license": "MIT",
   "authors": [
     {
