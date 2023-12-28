@@ -1,0 +1,32 @@
+{
+  "name": "dev4traders/d4t-admin-operation-log",
+  "description": "Dcat Admin Operation log",
+  "alias": "Operation Logs",
+  "type": "library",
+  "keywords": ["dcat-admin", "extension"],
+  "homepage": "https://github.com/dev4traders/d4t-admin-operation-log",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jiangqh",
+      "email": "841324345@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "mikha-dev/dcat-admin": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dcat\\Admin\\OperationLog\\": "src/"
+    }
+  },
+  "extra": {
+    "dcat-admin": "Dcat\\Admin\\OperationLog\\OperationLogServiceProvider",
+    "laravel": {
+      "providers": [
+        "Dcat\\Admin\\OperationLog\\OperationLogServiceProvider"
+      ]
+    }
+  }
+}
